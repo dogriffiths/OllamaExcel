@@ -44,7 +44,7 @@ VBA macro to clear the local response cache.
 
 - Microsoft Excel (Mac or Windows)
 - [Ollama](https://ollama.com) installed and running locally
-- [VBA-Web](https://github.com/VBA-tools/VBA-Web) library for REST API calls
+- [VBA-Web](https://github.com/VBA-tools/VBA-Web) library for REST API calls (already included in the demo workbook)
 
 ## Installation
 
