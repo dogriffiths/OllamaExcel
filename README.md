@@ -48,8 +48,8 @@ VBA macro to clear the local response cache.
 
 ## Installation
 
-1. Install Ollama from ollama.com
-2. Pull your desired model (llama3 is the one this workbook uses by default): ollama pull llama3
+1. Install [Ollama](https://ollama.com)
+2. Pull your desired model (llama3 is the one this workbook uses by default): `ollama pull llama3` (or just select it and use it in the GUI)
 3. EITHER install [VBA-Web](https://github.com/VBA-tools/VBA-Web) and import Module1 from this workbook into your workbook, OR…
 4. …just copy and edit this workbook to do what you want
 5. If you access Ollama from a different machine, edit the `Client.BaseUrl` in the OLLAMA function in Module1
