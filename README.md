@@ -13,6 +13,10 @@ A VBA module that connects Microsoft Excel to a local [Ollama](https://ollama.co
 - **Mac & Windows Compatible**: Works on both platforms with automatic path detection
 - **Error Handling**: Graceful error handling with informative messages
 
+## Why is the workbook called AppReviews.xlsm?
+
+This demo workbook contains two sample datasets: one with hotel reviews and another with app reviews. It automatically calculates [Net Promoter Scores](https://en.wikipedia.org/wiki/Net_promoter_score) (NPS) for accommodation, cleanliness, and value-for-money based on the hotel feedback. It also generates charts illustrating the NPS for speed, functionality, and stability derived from the app reviews.
+
 ## Functions
 
 ### `OLLAMA(prompt, [range], [model])`
