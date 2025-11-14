@@ -17,6 +17,8 @@ An Excel Workbook that connects to a local [Ollama](https://ollama.com) installa
 
 This demo workbook contains two sample datasets: one with hotel reviews and another with app reviews. It automatically calculates [Net Promoter Scores](https://en.wikipedia.org/wiki/Net_promoter_score) (NPS) for accommodation, cleanliness, and value-for-money based on the hotel feedback. It also generates charts illustrating the NPS for speed, functionality, and stability derived from the app reviews.
 
+The first time you edit the reviews in the tables, it will be a little slow because Excel will run all of the cell-prompts for the first time. The results will be cached after that.
+
 ## Functions
 
 ### `OLLAMA(prompt, [range], [model])`
