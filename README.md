@@ -58,6 +58,6 @@ VBA macro to clear the local response cache.
 ## How It Works
 
 - Makes HTTP POST requests to Ollama's local API (http://localhost:11434)
-- Caches responses in `~/Documents/OllamaCache.txt` to avoid repeat calls
+- Caches responses in `~/Documents/OllamaCache.txt` to avoid repeat calls (it's in `"~/Library/Continers/Microsoft Excel/Data/Documents/OllamaCache.txt"` on the Mac)
 - Only caches successful responses (errors trigger fresh API calls)
 - Converts Excel ranges to CSV format for model processing
