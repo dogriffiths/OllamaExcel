@@ -31,14 +31,6 @@ Main function to interact with Ollama models.
 =OLLAMA("Translate to Spanish: Hello", A1, "mistral")
 ```
 
-### `OLLAMA_ANALYZE(prompt, range, [model])`
-Specialized function for analyzing Excel data ranges with concise responses.
-
-**Example:**
-```excel
-=OLLAMA_ANALYZE("What's the trend?", A1:A20)
-```
-
 ### `ClearOllamaCache()`
 VBA macro to clear the local response cache.
 
