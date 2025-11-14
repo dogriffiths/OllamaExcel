@@ -1,6 +1,6 @@
 # Excel Ollama Integration
 
-A VBA module that connects Microsoft Excel to a local [Ollama](https://ollama.com) installation, enabling you to use large language models directly in your spreadsheets.
+An Excel Workbook that connects to a local [Ollama](https://ollama.com) installation, enabling you to use AI large language models directly in your spreadsheets. Using Ollama means everything can be done locally with no risk of running over Copilot usage limits, or incurring API charges.
 
 ![Demo](images/demo.gif)
 
