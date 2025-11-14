@@ -1,10 +1,8 @@
-Here's a GitHub description for your demo file:
-
----
-
 # Excel Ollama Integration
 
 A VBA module that connects Microsoft Excel to a local [Ollama](https://ollama.com) installation, enabling you to use large language models directly in your spreadsheets.
+
+![Demo](images/demo.gif)
 
 ## Features
 
